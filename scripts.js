@@ -18,6 +18,7 @@ function changeLayout(){
 function stadium(){
     var x = document.getElementById("imgFrame").style;
     x.backgroundImage = "url('img/sonicsarena.jpg')";
+    document.querySelector("p").innerHTML = "Sonics Arena was a proposed multi-purpose arena to be constructed in the SoDo neighborhood of Seattle, Washington, United States. The arena would have hosted basketball, ice hockey, and concerts. The proposal called for an arena with a capacity of around 19,000 to 20,000 seats."
     changeLayout()
 
 }
@@ -25,6 +26,7 @@ function stadium(){
 function team(){
     var x = document.getElementById("imgFrame").style;
     x.backgroundImage = "url('img/team.jpg')";
+    document.querySelector("p").innerHTML = "Time mto bom msm"
     changeLayout()
 
 }
@@ -32,6 +34,7 @@ function team(){
 function city(){
     var x = document.getElementById("imgFrame").style;
     x.backgroundImage = "url('img/city.jpg')";
+    document.querySelector("p").innerHTML = "Cidade top demais"
     changeLayout()
 
 }
