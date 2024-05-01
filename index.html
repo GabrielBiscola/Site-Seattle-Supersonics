@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,20 +9,29 @@
     <script src="scripts.js"></script>
     <title>Seattle Supersonics</title>
 </head>
+
 <body>
     <div class="main">
-        <div class="left">
-            <div class="subpages">
-                <h2>Our stadium</h2>
-                <h2>Our team</h2>
-                <h2>Our city</h2>
-                <h2>Championship</h2>
+        <div class="left" id="left">
+            <div class="image-frame" id="imgFrame">
             </div>
-        </div>   
+            <div class="text-frame" id="texto">
+                <div id="slogan">
+                    <h1>Seattle Owns the West!</h1>
+                </div>
+                <p></p>
+            </div>
+        </div>
         <div class="right">
-            <image id="logo" src="img/logo.png">
-        </div> 
+            <image id="logo" src="img/logo.png" onclick="window.location.reload()">
+                <div class="subpages">
+                    <h2 onclick="stadium()">Our stadium</h2>
+                    <h2 onclick="team()">Our team</h2>
+                    <h2 onclick="stadium()">Our city</h2>
+                </div>
+        </div>
     </div>
     </div>
 </body>
+
 </html>
